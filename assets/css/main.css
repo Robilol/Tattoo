@@ -3922,6 +3922,10 @@
 	}
 
 	@media screen and (max-width: 980px) {
+		nav {
+			background-color: none;
+		}
+
 		#header .logo {
 			display: none;
 		}
@@ -3930,7 +3934,8 @@
 			display: block;
 			color: #fff;
 			text-align: left;
-			margin-right: auto;		}
+			margin-right: auto;
+		}
 
 		nav ul {
 			display: none;
@@ -3969,11 +3974,15 @@
 		}
 	}
 
-	body.is-menu-visible #menu .inner {
- 		-moz-transform: none;
- 		-webkit-transform: none;
- 		-ms-transform: none;
- 		transform: none;
- 		opacity: 1;
- 		visibility: visible;
- 	} 
+
+ 	#one {
+ 		background-color: #000;
+ 	}
+
+ 	#two section{
+ 		background-color: #e0e0e0;
+ 	}
+
+ 	#three {
+ 		background-color: #9e9e9e;
+ 	}
